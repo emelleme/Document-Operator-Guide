@@ -62,7 +62,7 @@
 								<ul class="">
 									<% loop ChildrenOf(operators) %>
 										<li class="">
-											<a href="javascript:void(0);" class="head"> $URLSegment <span style="color:#474747;">+</span></a>
+											<a href="javascript:void(0);" class="head"> $MenuTitle <span style="color:#474747;">+</span></a>
 											<ul class="content">
 												<li><a href="$URLSegment/glance/">At a Glance</a></li>
 												<li><a href="$URLSegment/guide/">Guide</a></li>
