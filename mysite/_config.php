@@ -17,7 +17,7 @@ MySQLDatabase::set_connection_charset('utf8');
 
 
 Director::addRules(50, array('operator-guide/$Action/$ID/$Name' =>'AdminPage_Controller'));
-Director::addRules(50, array('operators/$ID/$Action/$Name' =>'OperatorsPage_Controller'));
+Director::addRules(50, array('operators/$Action/$ID/$Name' =>'OperatorsPage_Controller'));
 // Set the site locale
 i18n::set_locale('en_US');
 

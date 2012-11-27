@@ -16,7 +16,7 @@
 				});
 				
 				//jCarousel Function
-				$("ul.carousel1").simplecarousel({
+				$(".carousel1").simplecarousel({
 					width:100,
 					height:34,
 					visible: 4,
@@ -26,15 +26,11 @@
 				});
 			});
 		</script>
-		<link href="" rel="stylesheet" />
-		<style type="text/css">
-			
-		</style>
 	</head>
 	<body>
 		<div id="wrap">
 			<header>
-				<h1>BRIGHTLINE Operator Guides</h1>
+				<h1>Digital Operator Guide</h1>
 				<span>
 					<a href="#" class="fav-icon"></a>
 					<a href="#" class="settings-icon"></a>
@@ -53,16 +49,16 @@
 							<li><a href="javascript:void(0);">Capabilities</a></li>
 							<li><a href="javascript:void(0);">Hot Ops</a></li>
 							<li>
-								<a href="javascript:void(0);" class="active">Operators</a>
+								<a href="javascript:void(0);">Operators</a>
 								<ul class="">
 									<% loop ChildrenOf(operators) %>
 										<li class="">
 											<a href="javascript:void(0);" class="head"> $MenuTitle <span style="color:#474747;">+</span></a>
 											<ul class="content">
-												<li><a href="$URLSegment/glance/">At a Glance</a></li>
-												<li><a href="$URLSegment/guide/">Guide</a></li>
-												<li><a href="$URLSegment/templates/">Templates</a></li>
-												<li><a href="$URLSegment/contacts/">Key Contacts</a></li>
+												<li><a href="$URLSegment">At a Glance</a></li>
+												<li><a href="$URLSegment">Guide</a></li>
+												<li><a href="$URLSegment">Templates</a></li>
+												<li><a href="$URLSegment">Key Contacts</a></li>
 											</ul>
 										</li>
 									<% end_loop %>
