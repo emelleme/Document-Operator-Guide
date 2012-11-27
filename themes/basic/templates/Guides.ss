@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<% base_tag %>
-		<title>Operator Guide - Guides</title>
+		<title>Digital Operator Guide - Guides</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="themes/basic/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
 		
@@ -77,39 +77,14 @@
 					</ul>
 				</div>
 				<div class="middle_frame">
-					<div id="stats">
-						<h2>Profile + Stats</h2>
-						<img src="" title="Operator Logo" class="op-logo" />
-						<p>Official Logo</p>
-						<p>(.PNG File)</p>
-						<button>Download</button>
-						<table>
-							<tr>
-								<td>Abbr:</td><td></td>
-							</tr>
-							<tr>
-								<td>Type:</td><td></td>
-							</tr>
-							<tr>
-								<td>Reach:</td><td></td>
-							</tr>
-							<tr>
-								<td>Country:</td><td></td>
-							</tr>
-							<tr>
-								<td>Channel(s):</td><td></td>
-							</tr>
-							<tr>
-								<td>Layout(s):</td><td></td>
-							</tr>
-							<tr>
-								<td>Avg. CTR:</td><td></td>
-							</tr>
-						</table>
-					</div>
-					<div id="map">
-						<h2>Distribution Map</h2>
-						<img src="#" title="Distribution Map" class="distribution-map" />
+					<div id="guide-wrap">
+						<img src="" alt="" title="" />
+						<p>Guide Description Goes Here</p>
+						<div class="guide-options">
+							<a href="#">Download</a>
+							<a href="#">Flag</a>
+							<a href="#">Favorite</a>
+						</div>
 					</div>
 					<div class="clear"></div>
 				</div>

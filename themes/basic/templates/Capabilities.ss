@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<% base_tag %>
-		<title>Operator Guide - At a Glance</title>
+		<title>Digital Operator Guide - At a Glance</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="themes/basic/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
 		
@@ -79,7 +79,7 @@
 				<div class="middle_frame">
 					<div id="stats">
 						<h2>Profile + Stats</h2>
-						<img src="" title="Operator Logo" class="op-logo" />
+						$Logo.setWidth(150)
 						<p>Official Logo</p>
 						<p>(.PNG File)</p>
 						<button>Download</button>
@@ -109,7 +109,7 @@
 					</div>
 					<div id="map">
 						<h2>Distribution Map</h2>
-						<img src="#" title="Distribution Map" class="distribution-map" />
+						$DistributionMap.setWidth(150)
 					</div>
 					<div class="clear"></div>
 				</div>
