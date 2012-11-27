@@ -10,7 +10,7 @@ html, body {background:#eee;margin:0;padding:0;font-family:Tahoma;}
 			#left .middle_frame {}
 			#left .middle_frame nav ul li:hover {}
 			#left .middle_frame nav ul li {background:#e2e2e2;border-bottom:0px solid #aeaeb0;margin-bottom:1px;padding:0px 0px;text-transform:uppercase;}
-			#left .middle_frame nav ul li a {color:#167cb6;display:block;font-weight:bold;line-height:31px;text-decoration:none;padding:0px 10px;height:31px;background:url('/themes/basic/images/nav_item_new.png') center top repeat-x;}
+			#left .middle_frame nav ul li a {color:#0091ef;display:block;font-weight:bold;line-height:31px;text-decoration:none;padding:0px 10px;height:31px;background:url('/themes/basic/images/nav_item_new.png') center top repeat-x;}
 			#left .middle_frame nav ul li ul li {font-weight:bold;padding:0px 0px;}
 			#left .middle_frame nav ul li ul li a {color:#4c4c4c;display:block;font-weight:normal;text-decoration:none;padding:0px 10px;height:25px;text-transform:none;border-bottom:1px solid #a8a8a9;line-height:25px;background:url('/themes/basic/images/nav_bg_new.png') bottom center repeat-x;font-size:.8em;}
 			#left .middle_frame nav ul li ul li a span {float:right;text-decoration:none;}
@@ -18,7 +18,7 @@ html, body {background:#eee;margin:0;padding:0;font-family:Tahoma;}
 			#left .middle_frame nav ul li ul li ul li a {padding:0px 10px;margin:0;height:24px;line-height:24px;border-bottom:1px solid #fff;background:url('themes/basic/images/nav_child_bg_new.png') top center repeat-x;}
 			#left .middle_frame nav ul li ul li ul li a:hover {/*background:url('/themes/basic/images/nav_child_bg_new_hover.png') top center repeat-x;*/background:#dedede;}
 			#left .bottom_frame {height:40px;}
-			#right .top_frame {background:url('/themes/basic/images/sub_nav_bg_new.png') bottom center repeat-x;;border-bottom:1px solid #c9c9c9;border-top-left-radius:7px;border-top-right-radius:7px;overflow:hidden;height:34px;padding:0 0px;}
+			#right .top_frame {background:url('/themes/basic/images/sub_nav_bg_new.png') bottom center repeat-x;;border-bottom:1px solid #c9c9c9;border-top-left-radius:7px;border-top-right-radius:7px;overflow:hidden;height:34px;padding:0 0px;position:relative;}
 			
 			
 			
