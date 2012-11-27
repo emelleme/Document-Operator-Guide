@@ -116,6 +116,43 @@
 							<br style="clear:both;" />
 						</div>
 					</div>
+					
+					<div id="stats">
+						<h2>Profile + Stats</h2>
+						$Logo
+						<p>Official Logo</p>
+						<p>(.PNG File)</p>
+						<button>Download</button>
+						<table>
+							<tr>
+								<td>Abbr:</td><td></td>
+							</tr>
+							<tr>
+								<td>Type:</td><td></td>
+							</tr>
+							<tr>
+								<td>Reach:</td><td></td>
+							</tr>
+							<tr>
+								<td>Country:</td><td></td>
+							</tr>
+							<tr>
+								<td>Channel(s):</td><td></td>
+							</tr>
+							<tr>
+								<td>Layout(s):</td><td></td>
+							</tr>
+							<tr>
+								<td>Avg. CTR:</td><td></td>
+							</tr>
+						</table>
+					</div>
+					<div id="map">
+						<h2>Distribution Map</h2>
+						$DistributionMap.setWidth(150)
+					</div>
+					<div class="clear"></div>
+					
 				</div>
 				
 				<div class="bottom_frame"></div>
