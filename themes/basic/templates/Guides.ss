@@ -78,7 +78,7 @@
 				</div>
 				<div class="middle_frame">
 					<div id="guide-wrap">
-						<img src="" alt="" title="" />
+						<img src="" alt="Guide Image" title="Click Here to Download This Image" />
 						<p>Guide Description Goes Here</p>
 						<div class="guide-options">
 							<a href="#">Download</a>
