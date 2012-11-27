@@ -6,7 +6,6 @@
 		<script type="text/javascript" src="themes/basic/js/jquery-1.8.3.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="themes/basic/css/custom.css" />
 		<link rel="stylesheet" type="text/css" href="themes/basic/skins/tango/skin2.css" />
-		
 		<script type="text/javascript" src="themes/basic/js/simple.carousel.js"></script>
 		<script>
 			$(document).ready(function(){
@@ -15,9 +14,6 @@
 					e.preventDefault();
 					$(this).closest('li').find('.content').slideToggle();
 				});
-				
-				//Slider Menu Function
-				$('#slider').nivoSlider();
 				
 				//jCarousel Function
 				$("ul.carousel1").simplecarousel({
@@ -80,6 +76,7 @@
 			
 			<div id="right">
 				<div class="top_frame">
+					<span class="prev">prev</span>
 					<ul class="carousel1">
 						<li><span>Entry Points</span></li>
 						<li><span>Active Portal</span></li>
@@ -91,6 +88,7 @@
 						<li><span>Safe Zones</span></li>
 						<li><span>Font Sizes</span></li>
 					</ul>
+					<span class="next">next</span>
 				</div>
 				<div class="middle_frame">
 					
