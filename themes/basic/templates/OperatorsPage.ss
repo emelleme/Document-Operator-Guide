@@ -3,12 +3,10 @@
 	<head>
 		<% base_tag %>
 		<title>Operator Guide - Operators</title>
-		
-		<script src="themes/basic/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
-		<link rel="stylesheet" type="text/css" href="themes/basic/css/custom.css" />
-		<script type="text/javascript" src="themes/basic/js/jquery.jcarousel.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="themes/basic/skins/tango/skin2.css" />
 		<script type="text/javascript" src="themes/basic/js/jquery-1.8.3.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="themes/basic/css/custom.css" />
+		<link rel="stylesheet" type="text/css" href="themes/basic/skins/tango/skin2.css" />
+		
 		<script type="text/javascript" src="themes/basic/js/simple.carousel.js"></script>
 		<script>
 			$(document).ready(function(){
