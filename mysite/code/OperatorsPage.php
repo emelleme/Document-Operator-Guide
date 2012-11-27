@@ -74,8 +74,6 @@ class OperatorsPage extends Page {
 		//$memberList->setPermissions(array('edit', 'delete', 'export', 'add', 'inlineadd'));
 		$fields->addFieldToTab('Root.KeyContacts', $messageList);
 		
-		
-		
 		return $fields;
 	}
 	

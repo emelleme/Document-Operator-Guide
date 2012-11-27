@@ -3,11 +3,12 @@
 	<head>
 		<% base_tag %>
 		<title>Operator Guide - Operators</title>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		
 		<script src="themes/basic/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
 		<link rel="stylesheet" type="text/css" href="themes/basic/css/custom.css" />
 		<script type="text/javascript" src="themes/basic/js/jquery.jcarousel.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="themes/basic/skins/tango/skin2.css" />
+		<script type="text/javascript" src="themes/basic/js/jquery-1.8.3.min.js"></script>
 		<script type="text/javascript" src="themes/basic/js/simple.carousel.js"></script>
 		<script>
 			$(document).ready(function(){
@@ -116,42 +117,105 @@
 							<br style="clear:both;" />
 						</div>
 					</div>
+					<br style="clear:both;" />
+					<div id="glace-wrap">
+						<h1>At a Glance</h1>
+						<div id="stats">
+							<h2>Profile + Stats</h2>
+							$Logo.setWidth(150)
+							<p>Official Logo</p>
+							<p>(.PNG File)</p>
+							<button>Download</button>
+							<table>
+								<tr>
+									<td>Abbr:</td><td></td>
+								</tr>
+								<tr>
+									<td>Type:</td><td></td>
+								</tr>
+								<tr>
+									<td>Reach:</td><td></td>
+								</tr>
+								<tr>
+									<td>Country:</td><td></td>
+								</tr>
+								<tr>
+									<td>Channel(s):</td><td></td>
+								</tr>
+								<tr>
+									<td>Layout(s):</td><td></td>
+								</tr>
+								<tr>
+									<td>Avg. CTR:</td><td></td>
+								</tr>
+							</table>
+						</div>
+						<div id="map">
+							<h2>Distribution Map</h2>
+							
+						</div>
+					</div>
 					
-					<div id="stats">
-						<h2>Profile + Stats</h2>
-						$Logo
-						<p>Official Logo</p>
-						<p>(.PNG File)</p>
-						<button>Download</button>
-						<table>
-							<tr>
-								<td>Abbr:</td><td></td>
-							</tr>
-							<tr>
-								<td>Type:</td><td></td>
-							</tr>
-							<tr>
-								<td>Reach:</td><td></td>
-							</tr>
-							<tr>
-								<td>Country:</td><td></td>
-							</tr>
-							<tr>
-								<td>Channel(s):</td><td></td>
-							</tr>
-							<tr>
-								<td>Layout(s):</td><td></td>
-							</tr>
-							<tr>
-								<td>Avg. CTR:</td><td></td>
-							</tr>
-						</table>
-					</div>
-					<div id="map">
-						<h2>Distribution Map</h2>
-						$DistributionMap.setWidth(150)
-					</div>
 					<div class="clear"></div>
+					
+					<div id="guide-wrap">
+						<h1>Guide</h1>
+						<img src="" alt="Guide Image" title="Click Here to Download This Image" />
+						<p>Guide Description Goes Here</p>
+						<div class="guide-options">
+							<a href="#">Download</a>
+							<a href="#">Flag</a>
+							<a href="#">Favorite</a>
+						</div>
+					</div>
+					
+					<div class="clear"></div>
+					
+					<div id="template-wrap">
+					<h1>Templates</h1>
+						<div class="template-item">
+							<img src="" title="Template Image" alt="Template Image" />
+							<p>Template Description Text Here</p>
+							<div class="template-options">
+								<a href="#">Download</a>
+								<a href="#">Flag</a>
+								<a href="#">Favorite</a>
+							</div>
+						</div>
+						<div class="template-item">
+							<img src="" title="Template Image" alt="Template Image" />
+							<p>Template Description Text Here</p>
+							<div class="template-options">
+								<a href="#">Download</a>
+								<a href="#">Flag</a>
+								<a href="#">Favorite</a>
+							</div>
+						</div>
+						<div class="template-item">
+							<img src="" title="Template Image" alt="Template Image" />
+							<p>Template Description Text Here</p>
+							<div class="template-options">
+								<a href="#">Download</a>
+								<a href="#">Flag</a>
+								<a href="#">Favorite</a>
+							</div>
+						</div>
+						<div class="template-item">
+							<img src="" title="Template Image" alt="Template Image" />
+							<p>Template Description Text Here</p>
+							<div class="template-options">
+								<a href="#">Download</a>
+								<a href="#">Flag</a>
+								<a href="#">Favorite</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="clear"></div>
+					
+					<div id="contacts-wrap">
+						<h1>Key Contacts</h1>
+					</div>
 					
 				</div>
 				
