@@ -18,7 +18,7 @@
 				//jCarousel Function
 				$("ul.carousel1").simplecarousel({
 					width:100,
-					height:100,
+					height:34,
 					visible: 4,
 					auto: false,
 					next: $('.next'),
