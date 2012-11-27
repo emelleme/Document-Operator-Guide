@@ -92,9 +92,10 @@ class OperatorsPage_Controller extends Page_Controller {
 	public function index(){
 		//Get URL Parameters
 		$params = $this->getURLParams();
+		$Photo = Photo::get();
 		
 		//Render Page
-		return $this->renderWith('OperatorsPage');
+		return $this->renderWith('OperatorsPage', $members);
 	}
 	
 
