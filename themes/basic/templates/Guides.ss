@@ -73,7 +73,7 @@
 			<div id="right">
 				<div class="top_frame">
 					<ul class="menu-carousel">
-						<li>At a Glance</li>
+						<li></li>
 					</ul>
 				</div>
 				<div class="middle_frame">
