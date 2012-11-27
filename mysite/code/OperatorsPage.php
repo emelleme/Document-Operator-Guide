@@ -2,6 +2,7 @@
 class OperatorsPage extends Page {
 
 	static $db = array(
+		
 	);
 
 	public static $has_one = array(
@@ -27,7 +28,6 @@ class OperatorsPage extends Page {
 		$fields->addFieldToTab("Root.At a Glance", new UploadField('Logo'));
 		$fields->addFieldToTab("Root.At a Glance", new UploadField('DistributionMap'));
 		$fields->removeFieldFromTab('Root.Main', 'Content');
-		
 		$glancefield = new GridField(
 			'Glances',
 			'Glances',
@@ -92,6 +92,7 @@ class OperatorsPage_Controller extends Page_Controller {
 	public function index(){
 		//Get URL Parameters
 		$params = $this->getURLParams();
+		
 		
 		//Render Page
 		return $this->renderWith('OperatorsPage', $members);
