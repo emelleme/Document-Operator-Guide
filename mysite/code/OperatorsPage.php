@@ -124,7 +124,7 @@ class OperatorsPage_Controller extends Page_Controller {
 		//print_r($params);
 		
 		//Render Page
-		return $this->renderWith('Research');
+		return $this->renderWith('Contacts');
 	}
 	
 	public function guide() {
@@ -133,7 +133,7 @@ class OperatorsPage_Controller extends Page_Controller {
 		//print_r($params);
 		
 		//Render Page
-		return $this->renderWith('Research');
+		return $this->renderWith('Guides');
 	}
 
 }

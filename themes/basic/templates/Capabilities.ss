@@ -79,7 +79,7 @@
 				<div class="middle_frame">
 					<div id="stats">
 						<h2>Profile + Stats</h2>
-						$Logo.setWidth(150)
+						$Logo
 						<p>Official Logo</p>
 						<p>(.PNG File)</p>
 						<button>Download</button>
