@@ -53,12 +53,12 @@
 								<ul class="">
 									<% loop ChildrenOf(operators) %>
 										<li class="">
-											<a href="javascript:void(0);" class="head"> $MenuTitle <span style="color:#474747;">+</span></a>
+											<a href="javascript:void(0);" class="head"> $URLSegement <span style="color:#474747;">+</span></a>
 											<ul class="content">
 											<li><a href="$MenuTitle/glance/">At a Glance</a></li>
 											<li><a href="$MenuTitle/guide/">Guide</a></li>
-											<li><a href="/templates/$MenuTitle">Templates</a></li>
-											<li><a href="/contacts/$MenuTitle">Key Contacts</a></li>
+											<li><a href="$MenuTitle/templates/">Templates</a></li>
+											<li><a href="$MenuTitle/contacts/">Key Contacts</a></li>
 										</ul>
 										</li>
 									<% end_loop %>
@@ -72,8 +72,8 @@
 			
 			<div id="right">
 				<div class="top_frame">
-					<ul id="mycarousel" class="jcarousel-skin-aqua">
-						<li><a href="#" class="" style="background:#dcdcdc;color:#167cb6;font-weight:bold;">At a Glance</a></li>
+					<ul class="menu-carousel">
+						<li>At a Glance</li>
 					</ul>
 				</div>
 				<div class="middle_frame">

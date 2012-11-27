@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="themes/basic/css/custom.css" />
 		<script type="text/javascript" src="themes/basic/js/jquery.jcarousel.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="themes/basic/skins/tango/skin2.css" />
+		<script type="text/javascript" src="themes/basic/js/simple.carousel.js"></script>
 		<script>
 			$(document).ready(function(){
 				//Accordion Menu Function
@@ -20,8 +21,13 @@
 				$('#slider').nivoSlider();
 				
 				//jCarousel Function
-				jQuery('#mycarousel').jcarousel({
-					// Configuration goes here
+				$("ul.carousel1").simplecarousel({
+					width:100,
+					height:100,
+					visible: 4,
+					auto: false,
+					next: $('.next'),
+					prev: $('.prev')
 				});
 			});
 		</script>
@@ -56,13 +62,13 @@
 								<ul class="">
 									<% loop ChildrenOf(operators) %>
 										<li class="">
-											<a href="javascript:void(0);" class="head"> $MenuTitle <span style="color:#474747;">+</span></a>
+											<a href="javascript:void(0);" class="head"> $URLSegment <span style="color:#474747;">+</span></a>
 											<ul class="content">
-											<li><a href="$MenuTitle/glance/">At a Glance</a></li>
-											<li><a href="$MenuTitle/guide/">Guide</a></li>
-											<li><a href="$MenuTitle/templates/">Templates</a></li>
-											<li><a href="$MenuTitle/contacts/">Key Contacts</a></li>
-										</ul>
+												<li><a href="$URLSegment/glance/">At a Glance</a></li>
+												<li><a href="$URLSegment/guide/">Guide</a></li>
+												<li><a href="$URLSegment/templates/">Templates</a></li>
+												<li><a href="$URLSegment/contacts/">Key Contacts</a></li>
+											</ul>
 										</li>
 									<% end_loop %>
 								</ul>
@@ -75,16 +81,16 @@
 			
 			<div id="right">
 				<div class="top_frame">
-					<ul id="mycarousel" class="jcarousel-skin-aqua">
-						<li><a href="#" class="" style="background:#dcdcdc;color:#167cb6;font-weight:bold;">Entry Points</a></li>
-						<li><a href="#">Active Portal</a></li>
-						<li><a href="#">Channel Guide</a></li>
-						<li><a href="#">Custom Spot</a></li>
-						<li><a href="#">Mosaic</a></li>
-						<li><a href="#">SAU</a></li>
-						<li><a href="#">Experience</a></li>
-						<li><a href="#">Safe Zones</a></li>
-						<li><a href="#">Font Sizes</a></li>
+					<ul class="carousel1">
+						<li><span>Entry Points</span></li>
+						<li><span>Active Portal</span></li>
+						<li><span>Channel Guide</span></li>
+						<li><span>Custom Spot</span></li>
+						<li><span>Mosaic</span></li>
+						<li><span>SAU</span></li>
+						<li><span>Experience</span></li>
+						<li><span>Safe Zones</span></li>
+						<li><span>Font Sizes</span></li>
 					</ul>
 				</div>
 				<div class="middle_frame">
