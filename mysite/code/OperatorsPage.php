@@ -109,16 +109,25 @@ class OperatorsPage_Controller extends Page_Controller {
 		return $this->renderWith('Capabilities', $params);
 	}
 	
-	public function production() {
+	public function templates() {
 		//Get URL Parameters
 		$params = $this->getURLParams();
 		//print_r($params);
 		
 		//Render Page
-		return $this->renderWith('Production');
+		return $this->renderWith('Templates');
 	}
 	
-	public function research() {
+	public function contacts() {
+		//Get URL Parameters
+		$params = $this->getURLParams();
+		//print_r($params);
+		
+		//Render Page
+		return $this->renderWith('Research');
+	}
+	
+	public function guide() {
 		//Get URL Parameters
 		$params = $this->getURLParams();
 		//print_r($params);

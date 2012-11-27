@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<% base_tag %>
-		<title>Operator Guide - At a Glance</title>
+		<title>Operator Guide - Guides</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="themes/basic/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
 		
