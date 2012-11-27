@@ -94,6 +94,7 @@
 					
 					<div id="updates">
 						<h2>News + Updates</h2>
+						<h3>$Tester</h3>
 						<div class="entry">
 							<img src="#" style="height:50px;width:50px;float:left;margin:10px;"/>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at sodales turpis. Aenean ligula arcu, aliquam sed consequat at, congue ac augue. Aliquam erat volutpat. Donec cursus lorem at leo rutrum dapibus.</p>
