@@ -1,0 +1,7 @@
+---
+Name: myroutes
+After: framework/routes#coreroutes
+---
+Director:
+    Routes:
+        'operator-guide/$Action/$ID/$Name': 'AdminPage_Controller'
