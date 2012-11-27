@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<% base_tag %>
-		<title>Operator Guide - Operators</title>
+		<title>$title</title>
 		<script type="text/javascript" src="themes/basic/js/jquery-1.8.3.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="themes/basic/css/custom.css" />
 		<link rel="stylesheet" type="text/css" href="themes/basic/skins/tango/skin2.css" />
@@ -118,7 +118,7 @@
 						<h1>At a Glance</h1>
 						<div id="stats">
 							<h2>Profile + Stats</h2>
-							$Logo.setWidth(150)
+							$Logo.SetWidth(150)
 							<p>Official Logo</p>
 							<p>(.PNG File)</p>
 							<button>Download</button>
