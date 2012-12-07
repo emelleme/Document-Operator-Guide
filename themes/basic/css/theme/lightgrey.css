@@ -2744,8 +2744,6 @@ body .custom-grey:hover{
 #e-loader-img{
 	background-color : #fff;
 }
-
-
 #updates {
 				border:1px solid #eee;
 				padding:0;
@@ -2927,4 +2925,3 @@ body .custom-grey:hover{
 		.download-btn {background:url('/themes/basic/images/heart.png') #fff no-repeat center center;}
 		.flag-btn {background:url('/themes/basic/images/heart.png') no-repeat center center;display:block;width:100px;height:100px;}
 		.favorite-btn {background:url('/themes/basic/images/heart.png') #fff no-repeat center center;}
-		

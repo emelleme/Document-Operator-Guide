@@ -154,7 +154,11 @@ div#container{
  
 #header{
 	height                             : 56px;
+<<<<<<< HEAD
 	border-radius                         : 3px;
+=======
+	border-top                         : none!important;
+>>>>>>> 1ea91ed59b98f2c284fbfa5666c535ef6355b542
 	-webkit-border-bottom-right-radius : 3px;
 	-webkit-border-bottom-left-radius  : 3px;
 	-moz-border-radius-bottomright     : 3px;

@@ -6,11 +6,19 @@
 <!--[if gt IE 9]>  <html class="no-js">                       <![endif]-->
 <!--[if !IE]><!--> <html class="no-js">                       <!--<![endif]-->
 <head>
+<<<<<<< HEAD
 <% base_tag %>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <title>BRIGHTLINE | Operator Guide - Admin</title>
+=======
+    <% base_tag %>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>BRIGHTLINE | Operator Guide</title>
+>>>>>>> 1ea91ed59b98f2c284fbfa5666c535ef6355b542
        
     <!-- // Mobile meta/files // -->
 
@@ -54,7 +62,11 @@
     <meta name="msapplication-tooltip" content="Cross-platform admin skin.">
     <meta name="msapplication-starturl" content="http://themes.creativemilk.net/elite/html/index.html">
     <!-- These custom tasks are examples, you need to edit them to show actual pages -->
+<<<<<<< HEAD
     <meta name="msapplication-task" content="name=Home;action-uri=http://themes.creativemilk.net/elite/html/index.html;icon-uri=http://themes.creativemilk.net/elite/html/themes/basic/images/favicons/favicon.ico">
+=======
+    <meta name="msapplication-task" content="name=Home;action-uri=http://themes.creativemilk.net/elite/html/index.html;icon-uri=http://themes.creativemilk.net/elite/html/images/favicons/favicon.ico">
+>>>>>>> 1ea91ed59b98f2c284fbfa5666c535ef6355b542
     <meta http-equiv="cleartype" content="on" /> 
     
     <!--[if lt IE 8]>
@@ -65,26 +77,39 @@
 
     <!-- Framework -->
     <link rel="stylesheet" href="themes/basic/css/framework.css"/>
+<<<<<<< HEAD
     <!-- Main -->
     <link rel="stylesheet" href="themes/basic/css/style.css"/>
     <!-- jQuery UI --> 
     <link rel="stylesheet" href="themes/basic/css/ui/jquery.ui.base.css"/>
+=======
+    <!-- Core -->
+    <link rel="stylesheet" href="themes/basic/css/login.css"/>
+>>>>>>> 1ea91ed59b98f2c284fbfa5666c535ef6355b542
     <!-- Styling -->
     <link rel="stylesheet" href="themes/basic/css/theme/lightgrey.css" id="themesheet"/>
 	<!--[if IE 7]>
 	<link rel="stylesheet" href="themes/basic/css/destroy-ie6-ie7.css"/>
+<<<<<<< HEAD
     <![endif]-->  
 	<!--[if gt IE 7]>
 	<link rel="stylesheet" href="themes/basic/css/ie.css"/>
+=======
+>>>>>>> 1ea91ed59b98f2c284fbfa5666c535ef6355b542
     <![endif]-->
       
     <!-- // Misc // -->
     
+<<<<<<< HEAD
     <link rel="shortcut icon" href="themes/basic/images/favicons/favicon.ico" />
+=======
+    <link rel="shortcut icon" href="themes/basic/images/favicons/favicon.ico">
+>>>>>>> 1ea91ed59b98f2c284fbfa5666c535ef6355b542
     
     <!-- // jQuery/UI core // -->
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<<<<<<< HEAD
     <script src="http://code.jquery.com/ui/1.8.22/jquery-ui.min.js"></script>
     
     <!-- // Thirdparty plugins // -->
@@ -179,12 +204,39 @@
     <script src="themes/basic/js/plugins.js"></script>
     <!-- Custom code -->
     <script src="themes/basic/js/main.js"></script>
+=======
+    <script>!window.jQuery && document.write('<script src="themes/basic/js/jquery-1.7.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.8.22/jquery-ui.min.js"></script>
+    <script>!window.jQueryUI && document.write('<script src="themes/basic/js/jquery-ui-1.8.22.min.js"></script>
+    
+    <!-- // Plugins // -->    
+                      
+    <!-- Touch helper -->  
+    <script src="themes/basic/js/jquery.ui.touch-punch.min.js"></script>
+    <!-- Stylesheet switcher --> 
+    <script src="themes/basic/js/e_styleswitcher.1.0.min.js"></script>   
+    <!-- Checkbox solution -->
+    <script src="themes/basic/js/e_checkbox.1.0.min.js"></script>       
+    <!-- Tabs -->
+    <script src="themes/basic/js/e_tabs.1.0.min.js"></script>
+    <!-- Menu -->
+    <script src="themes/basic/js/e_menu.1.0.min.js"></script>
+    <!-- Contact form with validation -->
+    <script src="themes/basic/js/e_contactform.1.0.min.js"></script>    
+    <!-- Show password -->     
+    <script src="themes/basic/js/e_showpassword.1.0.min.js"></script>  
+    <!-- Tooltip -->               
+    <script src="themes/basic/js/tipsy.js"></script>      
+    <!-- Plugins and custom code -->     
+    <script src="themes/basic/js/login.js"></script>  
+>>>>>>> 1ea91ed59b98f2c284fbfa5666c535ef6355b542
     
     <!-- // HTML5/CSS3 support // -->
 
     <script src="themes/basic/js/modernizr.min.js"></script>
                 
 </head>
+<<<<<<< HEAD
 <body class="layout_fluid layout_responsive"> 
 
 	<div id="container">
@@ -397,3 +449,82 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet est et
 </body>
 </html>
 
+=======
+<body>  
+ 
+    
+ 
+    <div id="login">
+    
+    	<!--Put your logo here-->
+    	<div id="logo">
+        	<h1>Brightline Login</h1>
+        </div>
+        
+        <!--Show a dialog-->
+        <!--<div class="g_1">
+            <div class="dialog error">
+                <p></p>
+                <span>x</span>
+            </div>
+        </div>-->
+
+        <!--The main part-->                   
+        <div id="login-outher">        
+            <div id="login-inner">
+                <header>
+                    <h2>Login (validation)</h2> 
+                    <ul class="e-splitmenu" id="login-lang">
+                        <li><span>English</span><a href="javascript:void(0);"><img src="themes/basic/images/icons/flags/gb.png" alt=""/></a>
+                        
+                             <div>
+                                <ul>
+                                    <li><a href="index.html"><img src="themes/basic/images/icons/flags/gb.png" alt=""/> English</a></li>
+                                    <li><a href="index.html"><img src="themes/basic/images/icons/flags/de.png" alt=""/> German</a></li>
+                                    <li><a href="index.html"><img src="themes/basic/images/icons/flags/es.png" alt=""/> Spanish</a></li>
+                                </ul>                                      
+                            </div>                               
+
+                        </li>
+                    </ul>                                 
+                </header>
+                
+                <div id="login-content">
+                    <form method="post" action="operator-guide" id="login-form">
+                        <div class="g_1">
+                            <label for="field1">Username</label>
+                        </div>
+                        <div class="g_1">                            
+                            <input type="text" name="" id="field1" tabindex="1" data-validation-type="present"/>
+                        </div>
+                        
+                        <div class="spacer-10"><!-- spacer 20px --></div> 
+                        
+                        <div class="g_1">
+                            <label for="field2">Password</label>
+                            <a href="javascript:void(0);" class="forgot-password">Forgot password?</a>
+                        </div>
+                        <div class="g_1">  
+                            <input type="password" name="" id="field2" tabindex="2" data-validation-type="present"/> 
+                        </div>
+                        
+                        <div class="spacer-20"><!-- spacer 20px --></div> 
+                        
+                         <div class="g_1">
+                            <input type="checkbox" name="" id="field3" tabindex="3"/>
+                            <label for="field3">Remember me</label>
+                            <input type="submit" value="Login" name="" tabindex="4" class="button-text"/>
+                            <a href="javascript:void(0);" id="show-password" class="button-icon tip-n" title="Show Password" style="float:right"><span class="info-10 plix-10"></span></a>
+                        </div>               
+                    </form>
+				</div><!-- End #login-content --> 
+            </div><!-- End #login-inner -->                                  
+        </div><!-- End #login-outher --> 
+        
+        <!-- place your copyright text here -->
+        <footer id="footer">
+        </footer> 
+    </div><!-- End "#login" -->        
+</body>
+</html>
+>>>>>>> 1ea91ed59b98f2c284fbfa5666c535ef6355b542

@@ -62,7 +62,7 @@
     <![endif]-->
             
     <!-- // Stylesheets // -->
-	<link rel="stylesheet" href="themes/basic/css/table.css"/>
+
     <!-- Framework -->
     <link rel="stylesheet" href="themes/basic/css/framework.css"/>
     <!-- Main -->
