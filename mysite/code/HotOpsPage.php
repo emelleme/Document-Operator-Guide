@@ -1,8 +1,8 @@
 <?php
-class HotOpsPage extends Page {
+class HotOpsPage extends BlogHolder {
 	static $db = array(
 	);
 }
-class HotOpsPage_Controller extends Page_Controller {
+class HotOpsPage_Controller extends BlogHolder_Controller {
 
 }
