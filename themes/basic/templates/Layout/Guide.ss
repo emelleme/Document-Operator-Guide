@@ -4,7 +4,7 @@
  <div class="page-header">
 	<h1 style="width:95%;margin:0 2.5%;">Guide - $Title</h1>
  </div>
- <% if EntryItems %>
+ <% if Entries %>
  <div class="powerwidget" id="guide-tabs-1" data-widget-collapsed="true" style="width:95%;margin:0 2.5%;">
  	<header>
 	<h2>Entry Points</h2>
@@ -13,7 +13,7 @@
 	    <div id="entry" style="margin-top:10px;">
 			<div id="carousel-image-and-text" class="touchcarousel grey-blue inner-spacer">       
 				<ul class="touchcarousel-container">
-				<% loop EntryItems %>
+				<% loop Entries %>
 					<li class="touchcarousel-item">
 						<a class="item-block" href="$Image.URL">
 							$Image.SetWidth(723)
@@ -33,7 +33,7 @@
 	</div>
 </div>
 <% end_if %>
-<% if ExperienceItems %>
+<% if Experiences %>
  <div class="powerwidget" id="guide-tabs-2" data-widget-collapsed="true" style="width:95%;margin:2.5%;">
  	<header>
 	<h2>Experiences</h2>
@@ -42,7 +42,7 @@
 	     <div id="experiences" style="margin-top:10px;">
 			 <div id="carousel-image-and-text-2" class="touchcarousel grey-blue inner-spacer">       
 				<ul class="touchcarousel-container">
-					<% loop ExperienceItems %>
+					<% loop Experiences %>
 					<li class="touchcarousel-item">
 						<a class="item-block" href="$Image.URL">
 							$Image.SetWidth(723)

@@ -8,8 +8,8 @@ $databaseConfig = array(
 	"type" => 'MySQLDatabase',
 	"server" => 'localhost',
 	"username" => 'root',
-	"password" => 'd3v-Emelle',
-	"database" => 'SS_interactiveguide',
+	"password" => 'd3v-Brightline',
+	"database" => 'SS_dog',
 	"path" => '',
 );
 
@@ -25,4 +25,6 @@ i18n::set_locale('en_US');
 // Enable nested URLs for this site (e.g. page/sub-page/)
 if (class_exists('SiteTree')) SiteTree::enable_nested_urls();
 
-Commenting::add('SiteTree');
+//Commenting::add('SiteTree');
+DMSDocumentAddController::add_allowed_extensions(array('ai'));
+DMSDocumentAddController::add_allowed_extensions(array('psd'));

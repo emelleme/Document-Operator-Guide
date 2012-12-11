@@ -67,6 +67,7 @@
     <link rel="stylesheet" href="themes/basic/css/framework.css"/>
     <!-- Main -->
     <link rel="stylesheet" href="themes/basic/css/style.css"/>
+    <link rel="stylesheet" href="themes/basic/css/custom.css"/>
     <!-- jQuery UI --> 
     <link rel="stylesheet" href="themes/basic/css/ui/jquery.ui.base.css"/>
     <!-- Styling -->
